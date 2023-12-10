@@ -11,7 +11,7 @@ function validatelogin() {
       setTimeout(()=>{
           window.location.href =`/about-me.html`
           console.log(window.location)
-      }, 5000);
+      }, 3000);
 
   } else {
       errorMessage.style.color = "#fa0f0f";
