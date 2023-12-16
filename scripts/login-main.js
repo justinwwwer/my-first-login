@@ -11,9 +11,9 @@ async function validatelogin() {
     const spinner = document.querySelector('.spinner');
     spinner.classList.add('spinner--show')
 
-
+ 
     setTimeout(() => {
-      window.location.href = `/my-first-login/about-me.html`
+      window.location.href = `${window.location.origin}/about-me.html`
     }, 3000);
 
   } else {
