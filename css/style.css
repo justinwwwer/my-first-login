@@ -42,7 +42,7 @@ button:hover {
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #37bc9b;
+  background-color: #37bcb5;
   transition: width 0.3s ease;
   z-index: 1000;
 }
@@ -112,7 +112,7 @@ button:hover {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: #37bc9b;
+  background-color: #37bcb5;
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
@@ -125,3 +125,14 @@ button:hover {
   -moz-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+.timeline-card {
+  transition: transform 1s ease-in-out;
+  transform: scale(1);
+}
+
+
+.timeline-card:hover {
+  transform: scale(1.1);
+}
+

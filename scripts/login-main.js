@@ -13,7 +13,7 @@ async function validatelogin() {
 
 
     setTimeout(() => {
-      window.location.href = `/about-me.html`
+      window.location.href = `/my-first-login/about-me.html`
     }, 3000);
 
   } else {
