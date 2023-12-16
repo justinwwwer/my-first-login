@@ -96,3 +96,39 @@ form:hover{
   text-shadow: 2px 2px orangered;
   transition: all 500ms ;
 }
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.spinner{
+  width: 50px;
+  height: 50px;
+  border: 10px solid #c2c1c1;
+  border-top:9px solid #0059ff;
+  border-radius: 100%;
+  visibility: hidden;
+  
+  position: absolute;
+  align-items: center;
+  top: 100px;
+  bottom:0;
+  left: 25px;
+  right: 20px;
+  margin: auto;
+  
+  animation: spin 1s infinite linear;
+}
+
+.spinner--show {
+  visibility: visible;
+}
+
+@keyframes spin {
+  from{
+      transform: rotate(0deg);
+  }to{
+      transform: rotate(360deg);
+  }
+}
