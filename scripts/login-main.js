@@ -5,7 +5,7 @@ async function validatelogin() {
 
   // Simple validattion
   if (username === "user" && password === "pass") {
-    errorMessage.style.color = "grean";
+    errorMessage.style.color = "Light blue";
     errorMessage.textContent = "Login successful!";
 
     const spinner = document.querySelector('.spinner');

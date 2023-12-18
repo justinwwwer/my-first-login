@@ -4,7 +4,9 @@ body {
     display:flex;
 flex-direction: column;
   }
-  
+  #error-message{
+    font-family: 'Rubik', sans-serif;
+  }
   .Cool {
     color: orange;
     text-align: center
